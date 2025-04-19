@@ -1,7 +1,12 @@
 {
   "expo": {
-    "name": "modak",
-    "slug": "modak",
+    "extra": {
+      "eas": {
+        "slug": "dummy-api"
+      }
+    },
+    "name": "dummy-api",
+    "slug": "dummy-api-teste",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,16 +18,22 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.felipesaraivac.dummy-api",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "owner": "felipesaraivac"
   }
 }

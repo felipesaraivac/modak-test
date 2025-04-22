@@ -8,7 +8,7 @@ It consumes API data from the [https://dummyjson.com/docs/products](https://dumm
 ## Getting Started
 
 ### Prerequisites
-- Node.js
+- Node.js (v20.+)
 - npm or yarn
 - Expo CLI
 
